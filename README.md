@@ -13,7 +13,7 @@
 ![License](https://img.shields.io/badge/License-MIT-orange?style=flat-square)
 ![Windows](https://img.shields.io/badge/Windows-11-blue?style=flat-square&logo=windows)
 
-> *"Everything Claude Code does, but running on your machine. Free, private, and yours."*
+> "A free, private, local alternative for AI-assisted coding. Not a full replacement, but yours."
 
 [🇪🇸 Versión en Español](README-ES.md) · [📋 Troubleshooting](#-troubleshooting) · [⚡ Quick Start](#-quick-start)
 
