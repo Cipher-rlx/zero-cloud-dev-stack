@@ -4,6 +4,7 @@
 
 ### A free, local alternative to Claude Code
 **Aider + Ollama + Open WebUI + CrewAI — for Windows**
+> **Why this matters for security work:** running LLMs locally means sensitive data (logs, alerts, incident details) never leaves your machine. This stack is the foundation for my SOC automation projects, such as local LLM-based alert triage.
 
 ![Ollama](https://img.shields.io/badge/Ollama-0.30.9-black?style=flat-square&logo=ollama)
 ![Aider](https://img.shields.io/badge/Aider-0.86.2-blue?style=flat-square)
