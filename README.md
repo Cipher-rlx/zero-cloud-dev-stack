@@ -51,6 +51,7 @@ These claims circulate online and are **false** — verified during this install
 | "I can run llama3.3:70b with 32GB RAM" | ❌ A 70B model in Q4 requires ~40GB+ |
 | "AnythingLLM replaces Claude Code" | ❌ The real CLI alternative is **Aider** |
 | "LM Studio has native Intel NPU support" | ❌ Open issue, unresolved |
+“Verified June 2026”
 
 ---
 
@@ -267,6 +268,7 @@ If you have a second machine with more RAM (e.g., 64GB), you can use it as a ded
 # On the server machine:
 $env:OLLAMA_HOST = "0.0.0.0:11434"
 ollama serve
+> ⚠️ **Security note:** binding to `0.0.0.0` exposes Ollama to your entire network with no authentication. Only do this on a trusted LAN, restrict access with a firewall rule to the client's IP, and never expose port 11434 to the internet.
 
 # On the client machine, change all URLs from localhost to the server IP:
 C:\aider-env\Scripts\aider --model ollama/qwen2.5-coder:32b --openai-api-base http://192.168.1.100:11434
